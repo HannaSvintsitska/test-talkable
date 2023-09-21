@@ -1,0 +1,43 @@
+.column-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.bold-text {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.date {
+  color: rgb(160, 155, 155);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.price {
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: 800;
+}
+.regular-text {
+  font-size: 14px;
+}
+.status-grey {
+  color: rgb(160, 155, 155);
+  font-size: 12px;
+}
+.status-red {
+  color: red;
+  font-size: 12px;
+}
+.email {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+.email:hover {
+  color: blue;
+  text-decoration: underline;
+}

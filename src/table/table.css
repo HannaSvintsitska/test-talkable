@@ -1,0 +1,27 @@
+.main-container-table {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.header-table {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.table-table {
+  margin: 20px 0;
+}
+.row-table,
+.header-in-table,
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.hr-table {
+  background-color: rgb(223, 215, 215) !important;
+  height: 1px;
+  border: none;
+  margin: 17px 0;
+}
